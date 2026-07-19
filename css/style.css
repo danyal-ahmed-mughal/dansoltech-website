@@ -1,0 +1,193 @@
+:root{
+    --primary:#9cff1e;
+    --primary-dark:#7fd600;
+    --dark: black;
+    --light:#F8FAFC;
+    --white:#ffffff;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Navbar Links */
+.navbar .nav-link {
+    color: #ffffff !important;
+    transition: color 0.3s ease;
+}
+
+/* Navbar Hover */
+.navbar .nav-link:hover {
+    color: #9cff1e !important;
+}
+
+/* Active Page */
+.navbar .nav-link.active {
+    color: #9cff1e !important;
+    font-weight: 600;
+}
+.navbar-brand {
+    color: #ffffff !important;
+    transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #9cff1e !important;
+}
+
+.btn-brand {
+    background-color: #9cff1e;
+    color: #000;
+    border: 2px solid #9cff1e;
+    transition: all 0.3s ease;
+}
+
+.btn-brand:hover {
+    background-color: #000;
+    color: #9cff1e;
+    border-color: #9cff1e;
+}
+.hero{
+    min-height:80vh;
+    display:flex;
+    align-items:center;
+}
+.card{
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+/* ======================================
+   Technology Cards
+====================================== */
+
+.tech-card{
+
+    background:#ffffff;
+
+    border-radius:16px;
+
+    padding:35px 20px;
+
+    text-align:center;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+    height:100%;
+
+}
+
+.tech-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 20px 40px rgba(37,99,235,.20);
+
+}
+
+.tech-card i{
+
+    font-size:50px;
+
+    color:var(--primary);
+
+    margin-bottom:20px;
+
+}
+
+
+.tech-card h5{
+
+    font-weight:600;
+
+    margin:0;
+
+}
+/* ===========================
+   Brand Colors
+=========================== */
+
+.bg-brand{
+    background-color:var(--primary) !important;
+}
+
+.text-brand{
+    color:var(--primary) !important;
+}
+
+.btn-brand{
+
+    background:var(--primary);
+
+    color:#111827;
+
+    border:none;
+
+    font-weight:600;
+
+    padding:12px 28px;
+
+    border-radius:10px;
+
+    transition:.3s;
+
+}
+
+.btn-brand:hover{
+
+    background:var(--primary-dark);
+
+    color:#111827;
+
+}
+/* ===========================
+   Service Icons
+=========================== */
+
+.service-icon{
+    color: var(--primary);
+}
+.service-icon{
+    color: white;
+}
+.logo{
+    height: 100px;
+    width: auto;
+}
+
+.bg-dark {
+    background-color: #000 !important;
+}
+footer a {
+    color: #ffffff !important;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+footer a:hover {
+    color: #9cff1e !important;
+}
+
+footer i {
+    color: #9cff1e;
+    transition: all 0.3s ease;
+}
+
+footer a:hover i {
+    transform: translateY(-2px);
+}
+
+/* App Screenshots */
+.app-screenshot {
+    max-width: 260px;
+    height: auto;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.app-screenshot:hover {
+    transform: scale(1.05);
+}
