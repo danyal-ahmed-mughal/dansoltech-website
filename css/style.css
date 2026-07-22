@@ -148,10 +148,8 @@ body{
 =========================== */
 
 .service-icon{
-    color: var(--primary);
-}
-.service-icon{
-    color: white;
+    color:var(--primary);
+    font-size:42px;
 }
 .logo{
     height: 100px;
@@ -161,24 +159,7 @@ body{
 .bg-dark {
     background-color: #000 !important;
 }
-footer a {
-    color: #ffffff !important;
-    text-decoration: none;
-    transition: all 0.3s ease;
-}
 
-footer a:hover {
-    color: #9cff1e !important;
-}
-
-footer i {
-    color: #9cff1e;
-    transition: all 0.3s ease;
-}
-
-footer a:hover i {
-    transform: translateY(-2px);
-}
 
 /* App Screenshots */
 .app-screenshot {
@@ -190,4 +171,350 @@ footer a:hover i {
 
 .app-screenshot:hover {
     transform: scale(1.05);
+}
+/* ======================================
+   Mobile Responsive
+====================================== */
+
+@media (max-width:768px){
+
+.logo{
+    height:80px;
+    width:auto;
+}
+
+.hero{
+    min-height:auto;
+    text-align:center;
+    padding:70px 0;
+}
+
+.hero h1{
+    font-size:2.4rem;
+    line-height:1.2;
+}
+
+.hero .lead{
+    font-size:1rem;
+    margin-bottom:2rem !important;
+}
+
+.hero img{
+    max-width:85%;
+    margin-top:40px;
+}
+
+.hero .btn{
+    width:100%;
+    margin-bottom:15px;
+}
+
+.hero .btn:last-child{
+    margin-bottom:0;
+}
+.service-card{
+    margin-bottom:10px;
+}
+
+.service-card .card-body{
+    padding:15px;
+}
+
+.service-card i{
+    font-size:36px;
+}
+
+.service-card h5{
+    font-size:1.15rem;
+}
+
+.service-card p{
+    font-size:.95rem;
+}
+.zeecal-phone{
+    width:100%;
+    max-width:260px;
+}
+
+.zeecal-features{
+    width:100%;
+    margin:25px 0;
+}
+
+.feature-item{
+    justify-content:flex-start;
+}
+
+.zeecal-phone{
+    display:block;
+    margin:40px auto 0;
+    max-width:250px;
+}
+
+.zeecal-section .btn-brand{
+    display:block;
+    width:100%;
+    margin-top:20px;
+}
+.cta-section{
+
+    padding:70px 20px;
+
+}
+
+.cta-title{
+
+    font-size:2rem;
+
+}
+
+.cta-text{
+
+    font-size:1rem;
+
+    line-height:1.7;
+
+}
+
+.cta-btn{
+
+    width:100%;
+
+}
+.footer{
+
+    text-align:center;
+
+}
+
+.footer-title{
+
+    font-size:1.3rem;
+
+}
+
+.footer-heading{
+
+    margin-top:15px;
+
+}
+
+.footer-links li{
+
+    margin-bottom:12px;
+
+}
+
+.footer p{
+
+    font-size:15px;
+
+}
+
+.footer hr{
+
+    margin:25px 0;
+
+}
+}
+/* ===========================
+   Service Cards
+=========================== */
+
+.service-card{
+    border-radius:18px;
+    padding:15px;
+    transition:all .35s ease;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    overflow:hidden;
+}
+
+.service-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+
+.service-card .card-body{
+    padding:20px;
+}
+
+.service-card i{
+    font-size:42px;
+    color:var(--primary);
+    margin-bottom:20px;
+}
+
+.service-card h5{
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.service-card p{
+    color:#6c757d;
+    line-height:1.7;
+}
+
+/* ======================================
+   ZeeCal AI
+====================================== */
+
+.zeecal-phone{
+    max-width:300px;
+    transition:.35s;
+}
+
+.zeecal-phone:hover{
+    transform:translateY(-10px);
+}
+
+.zeecal-features{
+    margin-top:25px;
+    margin-bottom:25px;
+}
+
+.feature-item{
+    display:flex;
+    align-items:center;
+    margin-bottom:15px;
+    font-size:1rem;
+    font-weight:500;
+}
+
+.feature-item i{
+    color:var(--primary);
+    font-size:20px;
+    margin-right:12px;
+}
+
+/* ======================================
+   CTA Section
+====================================== */
+
+.cta-section{
+
+    padding:90px 0;
+
+}
+
+.cta-title{
+
+    max-width:700px;
+
+    margin:auto;
+
+    line-height:1.2;
+
+}
+
+.cta-text{
+
+    max-width:650px;
+
+    margin:25px auto 0;
+
+    color:rgba(255,255,255,.9);
+
+}
+
+.cta-btn{
+
+    border-radius:12px;
+
+    font-weight:700;
+
+    transition:.35s;
+
+}
+
+.cta-btn:hover{
+
+    transform:translateY(-3px);
+
+}
+/* ======================================
+   Footer
+====================================== */
+
+.footer{
+
+    background:#000;
+
+}
+
+.footer-title{
+
+    font-size:1.4rem;
+
+    font-weight:700;
+
+    margin-bottom:20px;
+
+}
+
+.footer-heading{
+
+    color:var(--primary);
+
+    margin-bottom:18px;
+
+    font-weight:700;
+
+}
+
+.footer p{
+
+    color:#cfcfcf;
+
+    line-height:1.8;
+
+}
+
+.footer-links{
+
+    list-style:none;
+
+    padding:0;
+
+    margin:0;
+
+}
+
+.footer-links li{
+
+    margin-bottom:10px;
+
+}
+
+.footer-links a{
+
+    color:#ffffff;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.footer-links a:hover{
+
+    color:var(--primary);
+
+    padding-left:6px;
+
+}
+
+.footer i{
+
+    color:var(--primary);
+
+    margin-right:10px;
+
+}
+
+.footer hr{
+
+    border-color:#333;
+
+    margin:35px 0;
+
 }
